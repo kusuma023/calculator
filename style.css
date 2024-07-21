@@ -1,0 +1,44 @@
+				.heading{
+					text-decoration:underline;
+					margin-left:40%;
+				}
+				.calc-outline{
+					height: 480px;
+					width: 25%;
+					position: relative;
+					left: 35%;
+					top: 7px;
+					border: 1px solid black;
+					background-color: #9E9E9E;
+					border-radius: 3%;
+					padding:0% 1%;
+				}
+				#result-bar{
+					height: 20%;
+					width: 100%;
+					font-size: 40px;
+					text-align: right;
+					line-height: 150px;
+					padding:0% 2% 4% 0%;
+				}
+				.num-section input{
+					width: 19%;
+					padding: 5%;
+					margin: 2%;
+					border-radius: 20%;
+					font-weight: bold;
+					font-size:18px;
+				}
+				#equal{
+					width:45%;
+					border-radius:5%;
+				}
+				@media(min-width:300px)and (max-width:500px){
+					.calc-outline{
+						width:99%;
+						left:0%;
+					}
+					.heading{
+						margin-left:15%;
+					}
+				}
